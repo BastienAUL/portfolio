@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    font-family: Roboto;
+    justify-content: space-around;
+    align-items: center;    
+    height: 100vh;
+    margin: 0;
+}
+
+p{
+    font-size: 17px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(66, 66, 66);
+    height: 90vh;
+    width: 17.5%;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+#sidebar header{
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 10px;
+    padding: 10px 0 0 0;
+}
+.part p{
+    padding-bottom: -20px;
+}
+
+hr {
+    background-color: rgb(50, 50, 50);
+    border: none;
+    margin: 15px;
+    height: 2px;
+    border-radius: 10px;
+}
+
+#student {
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 3px;
+    padding: 8px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+#icon {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(66, 66, 66);
+    padding: 8px;
+    margin-top: -15px;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.part {
+    display: flex;
+    text-align: left;
+    height: 80px;
+}
+
+#social {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#language article{
+    display: flex;
+}
+
+#language article p{
+    margin-top: 25px;
+}
+
+#language img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.sur {
+    font-size: small;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: -10px;
+}
+
+main {
+    color: white;
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(66, 66, 66);
+    width: 70%;
+    height: 90vh;
+    border-radius: 20px;
+    padding: 20px;
+}
