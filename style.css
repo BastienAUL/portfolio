@@ -127,6 +127,7 @@ hr {
 }
 
 main {
+    display: flex;
     color: white;
     background-color: rgb(29, 29, 29);
     border: 1px solid rgb(66, 66, 66);
@@ -134,4 +135,28 @@ main {
     height: 90vh;
     border-radius: 20px;
     padding: 20px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 0 20px 0 20px;
+    width: 35%;
+    height: 50px;
+    margin: -21px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding-right: 50px;
+}
+
+nav ul li {
+    list-style: none;
 }
